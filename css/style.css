@@ -45,6 +45,12 @@ header {
 }
 /* Main content of the site */
 #content {
+	border: 4mm ridge  #b3b3cc;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+	width: 70%;
+    padding: 10px;
 	clear: both;
 	overflow: auto;
 	padding-top: 29px;
@@ -405,3 +411,80 @@ header #headerLinks a {
 	padding-left: 0px;
 }
 }
+#login {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 4px;
+    float: left;
+}
+.login_content {
+	float: left;
+}
+#login {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    opacity: 0.7;
+    float: unset;
+}
+#footer {
+    position: relative; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    background-color: rgba(208,207,207,1.00);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    color: #fff; 
+    width: 100%; 
+   }
+   #header {
+    position: relative; 
+    left: 0; top: 0; 
+    background-color: rgba(208,207,207,1.00);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    color: #fff; 
+    width: 100%; 
+   }
+
+   #Promotions {
+   	display: inline;
+   }
+
+.PromotionsItem {
+  color: #751aff;
+}
+.PromotionsItem p {
+
+}
+.PromotionsItem img {
+	margin-bottom: 30px;
+	margin: 10px;
+	width: 250px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.imageLeft {
+	float: left;
+}
+.imageRight {
+	float: right;
+}
+.buttonRight {
+	float: right;
+}
+
+.PromotionsItem button {
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #85adad;
+  padding: .7em 1.5em;
+  outline: none;
+} 
+.PromotionsItem button:hover { background: #3d5c5c; }
+.PromotionsItem button:active { background: #293d3d; }
