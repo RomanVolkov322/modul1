@@ -488,3 +488,22 @@ header #headerLinks a {
 } 
 .PromotionsItem button:hover { background: #3d5c5c; }
 .PromotionsItem button:active { background: #293d3d; }
+
+#Serch table {
+	margin-left: auto;
+	margin-right: auto;
+}
+#Serch table input {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+#SerchBytton {
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #85adad;
+  padding: .7em 1.5em;
+  outline: none;
+}
