@@ -422,6 +422,8 @@ header #headerLinks a {
 	float: left;
 }
 #login {
+	margin-left: auto;
+	margin-right: auto; 
     display: block;
     text-align: center;
     padding: 10px;
@@ -430,6 +432,11 @@ header #headerLinks a {
     background: #ffffff;
     opacity: 0.7;
     float: unset;
+    height: auto;
+}
+#login form table {
+	margin-left: auto;
+	margin-right: auto; 
 }
 #footer {
     position: relative; 
@@ -506,4 +513,9 @@ header #headerLinks a {
   background: #85adad;
   padding: .7em 1.5em;
   outline: none;
+}
+#tdRight {
+	border: 5px ridge  #ccccff;
+	width: 250px;
+	height: 15px;
 }
