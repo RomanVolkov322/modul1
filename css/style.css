@@ -519,3 +519,25 @@ header #headerLinks a {
 	width: 250px;
 	height: 15px;
 }
+#addPassander {
+	border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #80b3ff;
+  padding: .7em 1.5em;
+  outline: none;
+}
+#addPassander:hover { background: #1a75ff; }
+#addPassander:active { background: #001f4d; }
+#deletePassander {
+	border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #ff6666;
+  padding: .7em 1.5em;
+  outline: none;
+}
+#deletePassander:hover { background: #ff1a1a; }
+#deletePassander:active { background: #660000; }
