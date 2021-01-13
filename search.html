@@ -1,75 +1,96 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Главная</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Результаты поиска рейсов</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<div id="mainWrapper">
-  <header> 
-    <div id="logo"><img src="logo.png" width="250px"></div>
-    <div id="headerLinks">
-      <a href="#">Акции</a>
-      <a href="#">Поиск</a>
-      <a href="#">Регистрация на рейс<a>
-      <a href="#">Личный кабинет</a></div>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header><a href="">
+    <img src="logo.png" alt="" width="200">
+    </a>
+    <nav>
+      <ul>
+		<li><a href="#">Поиск</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Регистрация на рейс</a></li>
+		<li><a href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
   </header>
 
 <div id="content">
   <div id="Serch">
     <form method="post">
-        <table>
-          <center><h4>Результаты поиска рейсов</h4></center>
-          <tr>
-            <td><label>Номер рейса</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Воздушное судно</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Дата вылета</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Время вылета</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Время прилета</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Стоймость</label></td>
-            <td id="tdRight"></td>
-          </tr>
-          <tr>
-            <td><label>Вероятность вылета</label></td>
-            <td id="tdRight"></td>
-          </tr>
-      </table>
+      <table class="table">
+        <center><h4>Результаты поиска рейсов</h4></center>
+      <thead>
+      <tr>
+        <th>Номер рейса</th>
+        <th>Воздушное судно</th>
+        <th>Дата вылета</th>
+        <th>Время вылета</th>
+        <th>Время прилета</th>
+        <th>Стоймость</th>
+        <th>Вероятность вылета</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      </tr>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      </tr>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      </tr>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      </tr>
+      </tbody>
+</table>
     </form>
   </div>
 </div>
 
-  </div>
-
-
-    <div id="footer"> 
-    <div>
-      <p>Наш Телефон “8 (800) 100-10-10”</p>
-    </div>
-    <form>
-      <label>Подписка на получение новостей об акциях</label> <br>
-      <label>Email:</label>
-      <input type="text">
-      <button>Отправить</button>
-    </form>
+  <section class="footer_banner" id="contact">
+    <p class="hero_header">Наш телефон “8 (800) 100-10-10”</p><br>
+   <p class="hero_header"><a class="hero_a" href="">|Home|</a>
+    <a class="hero_a" href="">|Login|</a>
+    <a class="hero_a" href="">|Sign up|</a>
+    <a class="hero_a" href="">|Contact|</a>
+    <a class="hero_a" href="">|News|</a>
+    <a class="hero_a" href="">|Return|</a>
+    <a class="hero_a" href="">|Feedback|</a></p>
+  </section>
 </div>
-</div>
+<!-- Main Container Ends -->
 </body>
 </html>

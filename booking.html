@@ -1,102 +1,95 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Авторизация</title>
+<title>Результат бронирования</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<div id="mainWrapper">
-  <header> 
-    <div id="logo"><img src="logo.png" width="250px"></div>
-    <div id="headerLinks">
-      <a href="#">Регистрация</a>
-    </div>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header><a href="">
+    <img src="logo.png" alt="" width="200">
+    </a>
+    <nav>
+      <ul>
+		<li><a href="#">Поиск</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Регистрация на рейс</a></li>
+		<li><a href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div id="content">
-    <hr>
-    <center><h4>Бронирование</h4></center>
-    <hr>
- 
-  <div id="booking">
-          <form method="post">
-          <table>
-            <p>Данные о рейсах</p>
-          <tr>
-            <td><label>Номем рейса</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Название города вылета:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Название аэропорта вылета:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Дата вылета:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Время вылета:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Название города назначения:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Название аэропорта назначения:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Время прилета:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Стоймость:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-        </table>
-        <table>
-            <p>Данные о пасажирах</p>
-          <tr>
-            <td><label>Имя:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Фамилиия:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Дата рождения:</label></td>
-            <td id="tdRight"></td>
-            </tr>
-            <tr>
-            <td><label>Номер документа :</label></td>
-            <td id="tdRight"></td>
-            </tr>
-        </table>
-        <td colspan="2" style="text-align: center"><input id="SerchBytton" type="submit" value="Забронировать"></td>
-        <td colspan="2" style="text-align: center"><input id="addPassander" type="submit" value="Добавить пасажира"></td>
-        <td colspan="2" style="text-align: center"><input id="deletePassander" type="submit" value="Удалить пасажира"></td>
-        </form>
-        </div>
-      </div>
-<br>
-  <div id="footer"> 
-    <div>
-      <p>Наш Телефон “8 (800) 100-10-10”</p>
-    </div>
-    <form>
-      <label>Подписка на получение новостей об акциях</label> <br>
-      <label>Email:</label>
-      <input type="text">
-      <button>Отправить</button>
+<div id="content">
+  <div id="Serch"><center><h4>Результат бронирования</h4></center>
+    <form method="post">
+    <table class="table">
+        <caption>Данные о рейсах</caption>
+      <thead>
+      <tr>
+        <th>Номер рейса</th>
+        <th>Город вылета</th>
+        <th>Аэропорт вылета</th>
+        <th>Дата вылета</th>
+        <th>Время вылета</th>
+        <th>Город назначения</th>
+        <th>Аэропорт назначения</th>
+        <th>Время прилета</th>
+        <th>Стоймость</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      </tr>
+      </tbody>
+    </table>
+    <table class="table">
+        <caption>Данные о пасажирах</caption>
+      <thead>
+      <tr>
+        <th>Имя</th>
+        <th>Фамилиия</th>
+        <th>Дата рождения</th>
+        <th>Номер документа</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td>qwe</td>
+      <td><input id="SerchBytton" type="submit" value="Забронировать"></td>
+      <td><input id="addPassander" type="submit" value="Добавить пасажира"></td>
+      <td><input id="deletePassander" type="submit" value="Удалить пасажира"></td>
+      </tr>
+      </tbody>
+    </table>
     </form>
+  </div>
 </div>
+
+  <section class="footer_banner" id="contact">
+    <p class="hero_header">Наш телефон “8 (800) 100-10-10”</p><br>
+   <p class="hero_header"><a class="hero_a" href="">|Home|</a>
+    <a class="hero_a" href="">|Login|</a>
+    <a class="hero_a" href="">|Sign up|</a>
+    <a class="hero_a" href="">|Contact|</a>
+    <a class="hero_a" href="">|News|</a>
+    <a class="hero_a" href="">|Return|</a>
+    <a class="hero_a" href="">|Feedback|</a></p>
+  </section>
+</div>
+<!-- Main Container Ends -->
 </body>
 </html>

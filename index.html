@@ -1,51 +1,45 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Главная</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mordovia AVIA</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<div id="mainWrapper">
-  <header> 
-    <div id="logo"><img src="logo.png" width="250px"></div>
-    <div id="headerLinks">
-      <a href="#">Акции</a>
-      <a href="#">Поиск</a>
-      <a href="#">Регистрация на рейс<a>
-      <a href="#">Личный кабинет</a></div>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header><a href="">
+    <img src="logo.png" alt="" width="200">
+    </a>
+    <nav>
+      <ul>
+		<li><a href="#">Поиск</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Регистрация на рейс</a></li>
+		<li><a href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <div id="content">
-  <hr>
-    <center><h3>Акции</h3></center>
-  <hr>
-<div id="Promotions">
-  <div class="PromotionsItem">
-      <img class="imageLeft" src="images/promotions/promotion1.jpg">
-      <h4>Returning and Changing Your Tickets</h4>
-      <p>The pandemic has changed many travelers’ plans, but we know that it will not last forever. Once all of this is over, we will continue exploring this world the way we used to. Special rules that have been developed for this challenging situation will help you cancel your trip or postpone it until later.</p>
-      <button>Показать еще</button><br>
-    </div><br><br><br>
-  <div class="PromotionsItem">
-      <img class="imageRight" src="images/promotions/promotion2.jpg">
-      <h4 align="Right">Best offers</h4>
-      <p align="Right">To see again the streets that witnessed so much. To hug your beloved ones and look back to see what you’ve come through. And to think of new dreams that will be so special!</p>
-      <button class="buttonRight">Показать еще</button><br>
-    </div><br><br><br>
-  <div class="PromotionsItem">
-      <img class="imageLeft" src="images/promotions/promotion4.jpg">
-      <h4>Everything is on again</h4>
-      <p>SFrom August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week</p>
-      <button>Показать еще</button><br>
-    </div><br><br><br>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">Mordovia <span class="light">AVIA</span></h2>
+    <blockquote>
+      <p class="tagline">Крупнейшая частная авиакомпания России с самым современным парком воздушных судов на российском рынке авиаперевозок. Широкая маршрутная сеть позволяет нашим пассажирам путешествовать в 181 город в 26 странах мира.</p>
+    </blockquote>
+  </section>
+  <section class="hero2" id="hero2">
+    <blockquote>
+  <div id="info">
+  <div class="infoItem">
+      <img class="imageInfo" src="images/72361026.png">
+      <p style="width: 288px; text-align: center;">Mordovia AVIA входит в тройку лучших авиакомпаний Восточной Европы в авторитетном международном рейтинге Skytrax. По результатам 2018 года S7 Airlines стала самой пунктуальной российской авиакомпанией, заняв шестое место в европейском рейтинге пунктуальности авиакомпаний OAG Punctuality League 2019.</p>
+    </div>
   </div>
-  <hr>
-    <center><h3>Поиск билетов</h3></center>
-  <hr>
-  <div id="Serch">
+    </blockquote>
+  </section><br>
+  <section class="hero3" id="hero3">
+   <center><div id="Serch">
+    <h3>Поиск билетов</h3>
     <form method="post">
         <table>
           <tr>
@@ -69,30 +63,65 @@
             <td><input type="text"></td>
           </tr>
           <tr>
-            <td colspan="2" style="text-align: center"><input id="SerchBytton" type="submit" value="Найти"></td>
+            <td colspan="2" style="text-align: center"><input id="SerchBytton" class="parallax_button" type="submit" value="Найти"></td>
         </tr>
       </table>
     </form>
+  </div></center>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <center><h2>Наши акции</h2></center>
+  <div id="Promotions">
+  <div class="PromotionsItem">
+      <img class="imageLeft" src="images/promotions/promotion1.jpg">
+      <h4>Returning and Changing Your Tickets</h4>
+      <p>The pandemic has changed many travelers’ plans, but we know that it will not last forever. Once all of this is over, we will continue exploring this world the way we used to. Special rules that have been developed for this challenging situation will help you cancel your trip or postpone it until later.</p>
+      <button class="buttonLeft">Показать еще</button><br>
+    </div><br><br><br>
+  <div class="PromotionsItem">
+      <img class="imageRight" src="images/promotions/promotion2.jpg">
+      <h4 align="Right">Best offers</h4>
+      <p align="Right">To see again the streets that witnessed so much. To hug your beloved ones and look back to see what you’ve come through. And to think of new dreams that will be so special!</p>
+      <button class="buttonRight">Показать еще</button><br>
+    </div><br><br><br>
+  <div class="PromotionsItem">
+      <img class="imageLeft" src="images/promotions/promotion4.jpg">
+      <h4>Everything is on again</h4>
+      <p>SFrom August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week</p>
+      <button class="buttonLeft">Показать еще</button><br>
+    </div><br><br><br>
   </div>
-  <hr>
-    <center><h3></h3></center>
-  <hr>
-</div>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
 
   </div>
-
-
-    <div id="footer"> 
-    <div>
-      <p>Наш Телефон “8 (800) 100-10-10”</p>
-    </div>
-    <form>
-      <label>Подписка на получение новостей об акциях</label> <br>
-      <label>Email:</label>
-      <input type="text">
-      <button>Отправить</button>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">Подписка на получение новостей</h2>
+      <form class="parallax_description">
+      <center><label class="parallax_Email">Email:</label>
+      <input type="text"> <br></center>
+     <center><input class="parallax_button" type="button" value="Отправить"></center>
     </form>
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <p class="hero_header">Наш телефон “8 (800) 100-10-10”</p><br>
+   <p class="hero_header"><a class="hero_a" href="">|Home|</a>
+    <a class="hero_a" href="">|Login|</a>
+    <a class="hero_a" href="">|Sign up|</a>
+    <a class="hero_a" href="">|Contact|</a>
+    <a class="hero_a" href="">|News|</a>
+    <a class="hero_a" href="">|Return|</a>
+    <a class="hero_a" href="">|Feedback|</a></p>
+  </section>
 </div>
-</div>
+<!-- Main Container Ends -->
 </body>
 </html>

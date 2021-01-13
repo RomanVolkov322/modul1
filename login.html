@@ -1,52 +1,55 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
 <title>Авторизация</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<div id="mainWrapper">
-  <header> 
-    <div id="logo"><img src="logo.png" width="250px"></div>
-    <div id="headerLinks">
-      <a href="#">Регистрация</a>
-    </div>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header><a href="">
+    <img src="logo.png" alt="" width="200">
+    </a>
+    <nav>
+      <ul>
+    <li><a href="#">Поиск</a></li>
+    <li><a href="#">Акции</a></li>
+    <li><a href="#">Регистрация на рейс</a></li>
+    <li><a href="#">Личный кабинет</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <div id="content">
-          <div id="login">
-          <p class="price">Авторизация</p>
+          <center><div id="login">
+          <p>Авторизация</p>
           <form method="post">
           <table>
           <tr>
-            <td><label for="loginField">Номем телефона:</label></td>
-            <td><input id="loginField" type="text" name="login"></td>
+            <td><label>Номем телефона:</label></td>
+            <td><input id="loginField" type="text"></td>
             </tr>
             <tr>
-            <td><label for="passwordField">Пароль:</label></td>
-            <td><input id="passwordField" type="password" name="password"></td>
+            <td><label>Пароль:</label></td>
+            <td><input id="passwordField" type="password"></td>
             </tr>
             <tr>
             <td colspan="2" style="text-align: center"><input id="SerchBytton" type="submit" value="Войти"></td>
         </tr>
         </table>
         </form>
-        </div>
-  </div>
+        </div></center>
 
-<br>
-  <div id="footer"> 
-    <div>
-      <p>Наш Телефон “8 (800) 100-10-10”</p>
-    </div>
-    <form>
-      <label>Подписка на получение новостей об акциях</label> <br>
-      <label>Email:</label>
-      <input type="text">
-      <button>Отправить</button>
-    </form>
+  <section class="footer_banner" id="contact">
+    <p class="hero_header">Наш телефон “8 (800) 100-10-10”</p><br>
+   <p class="hero_header"><a class="hero_a" href="">|Home|</a>
+    <a class="hero_a" href="">|Login|</a>
+    <a class="hero_a" href="">|Sign up|</a>
+    <a class="hero_a" href="">|Contact|</a>
+    <a class="hero_a" href="">|News|</a>
+    <a class="hero_a" href="">|Return|</a>
+    <a class="hero_a" href="">|Feedback|</a></p>
+  </section>
 </div>
+<!-- Main Container Ends -->
 </body>
 </html>
