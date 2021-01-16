@@ -15,7 +15,7 @@
       <ul>
 		<li><a href="#hero3">Поиск</a></li>
         <li><a href="#about">Акции</a></li>
-        <li><a href="register.html">Регистрация на рейс</a></li>
+        <li><a href="#">Регистрация на рейс</a></li>
 		<li><a href="profile.html">Личный кабинет</a></li>
       </ul>
     </nav>
@@ -24,7 +24,7 @@
   <section class="hero" id="hero">
     <h2 class="hero_header">Mordovia <span class="light">AVIA</span></h2>
     <blockquote>
-      <p class="tagline">новая и энергичная авиакомпания, предоставляющая услуги пассажирских авиаперевозок небольшими малогабаритными самолетами. Главная цель компании - развить связность между городами России путем организации авиасообщений на непостоянной основе по мере накопления запросов на перелет.</p>
+      <p class="tagline">Крупнейшая частная авиакомпания России с самым современным парком воздушных судов на российском рынке авиаперевозок. Широкая маршрутная сеть позволяет нашим пассажирам путешествовать в 181 город в 26 странах мира.</p>
     </blockquote>
   </section>
   <section class="hero2" id="hero2">
@@ -41,31 +41,27 @@
    <center><div id="Serch">
     <h3>Поиск билетов</h3>
     <form method="post">
-        <table>
-          <tr>
-            <td><label>Откуда</label></td>
-            <td><input type="text"></td>
-          </tr>
-          <tr>
-            <td><label>Куда</label></td>
-            <td><input type="text"></td>
-          </tr>
-          <tr>
-            <td><label>Туда</label></td>
-            <td><input type="date"></td>
-          </tr>
-          <tr>
-            <td><label>Обратно</label></td>
-            <td><input type="date"></td>
-          </tr>
-          <tr>
-            <td><label>Количество пассажиров</label></td>
-            <td><input type="text"></td>
-          </tr>
-          <tr>
-            <td colspan="2" style="text-align: center"><input id="SerchBytton" class="parallax_button" type="submit" value="Найти"></td>
-        </tr>
+        <table class="table">
+          <thead>
+            <tr>
+              <th><label>Откуда</label></th>
+              <th><label>Куда</label></th>
+              <th><label>Туда</label></th>
+              <th><label>Обратно</label></th>
+              <th><label>Количество пассажиров</label></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th><input type="text"></th>
+              <th><input type="text"></th>
+              <th><input type="date"></th>
+              <th><input type="date"></th>
+              <th><input type="text"></th>
+            </tr>
+          </tbody>
       </table>
+      <td colspan="2" style="text-align: center"><input id="SerchBytton" class="parallax_button" type="submit" value="Найти"></td>
     </form>
   </div></center>
   </section>
