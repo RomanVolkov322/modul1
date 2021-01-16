@@ -1,13 +1,18 @@
-@charset "UTF-8";
+@font-face {
+	font-family: "LongCang";
+	src: url('fonts/LongCang.ttf');
+}
+* {
+	font-family: "LongCang";
+}
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: "LongCang";
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	font-style: normal;
 	font-weight: 200;
 }
 /* Container */
@@ -174,25 +179,20 @@ ul li:hover a {
 	background-repeat: no-repeat;
 }
 .parallax {
-	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
-	padding-top: 110px;
-	letter-spacing: 2px;
-	margin-top: 0px;
+	font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10%;
+    letter-spacing: 2px;
+    margin-top: 0px;
 }
 .parallax_description {
+	font-size: 25px;
 	color: #FFFFFF;
 	text-align: right;
-	padding-right: 100px;
-	width: 30%;
+	width: 100%;
 	float: right;
 	font-weight: lighter;
-	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
 }
 /* More info */
 footer {
@@ -565,11 +565,13 @@ nav ul li {
 
 }
 .parallax_button {
-	margin-top: 5px;
+	margin-top: 15px;
 	background-color: #1aa3ff;
     border: none;
     color: white;
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
